@@ -1,0 +1,28 @@
+<div class="login-wrapper">
+<div class="card">
+    <div class="card-body">
+
+        <form action="/action_page.php"   (ngSubmit)="onSubmit(signInForm)"   #signInForm="ngForm">
+            <h3>Login Form</h3>
+
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" name="email" class="form-control" id="email"    ngModel>
+            </div>
+
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" name="password" class="form-control" id="pwd"        ngModel>
+            </div>
+
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+
+    </div>
+</div>
+</div>
+
+  
